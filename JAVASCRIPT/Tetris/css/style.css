@@ -1,0 +1,25 @@
+.grid {
+  width: 200px;
+  height: 400px;
+  background-color: lightblue;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid div {
+  height: 20px;
+  width: 20px;
+}
+
+.tetromino {
+  background-color: pink;
+}
+
+button {
+  border: none;
+  background-color: rgb(58, 21, 144);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
